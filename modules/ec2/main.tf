@@ -20,7 +20,7 @@ resource "aws_instance" "vm" {
       "mkdir -p ~/.ssh",
       "ssh-keyscan github.com >> ~/.ssh/known_hosts",
       "git clone git@github.com:Choetsu/incr_app.git /home/ubuntu/incr_app",
-      "cd /home/ubuntu/incr_app && sudo docker-compose up -d"
+      "cd /home/ubuntu/incr_app && sudo docker-compose up --build -d"
     ]
 
     connection {
