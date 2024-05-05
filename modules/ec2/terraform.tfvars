@@ -1,0 +1,7 @@
+ami_id              = "ami-0326f9264af7e51e2"
+instance_type       = "t2.micro"
+key_name            = "node"
+vm_name             = "MyVM"
+connection_type     = "ssh"
+connection_user     = "ubuntu"
+private_key_path    = "~/.ssh/id_nodeapp"
