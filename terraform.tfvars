@@ -1,3 +1,4 @@
+profile             = "default"
 aws_region          = "eu-west-3"
 security_group_name = "node_ssh"
 cidr_ingress        = "0.0.0.0/0"

@@ -1,3 +1,9 @@
+variable "profile" {
+  description = "Profil AWS"
+  type        = string
+  default     = "default"
+}
+
 variable "aws_region" {
   description = "La région AWS"
   type        = string
